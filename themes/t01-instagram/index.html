@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Instagram</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+    <main class="background">
+        <header class="flex-spacebetween-center">
+            <div class="flex-row">
+                <i class="fi fi-rr-arrow-small-left"></i>
+                <p>raysantori</p>
+            </div>
+            <div>
+                <i class="fi fi-rr-bell"></i>
+                <i class="fi fi-rr-menu-dots-vertical"></i>
+            </div>
+        </header>
+        <section class="profile">
+            <div>
+                <div class="image-profile"></div>
+                <div class="num-statistics">
+                    <div>
+                        <div class="num">9</div>
+                        <div class="num-label">Publicações</div>
+                    </div>
+                    <div>
+                        <div class="num">323</div>
+                        <div class="num-label">Seguidores</div>
+                    </div>
+                    <div>
+                        <div class="num">412</div>
+                        <div class="num-label">Seguindo</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>Rayssa Gomes</h2>
+                <h6>Desenvolvedora frontend da web</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nesciunt illum voluptatem quis eveniet aspernatur incidunt repellendus error. Ullam quas corporis asperiores esse illum, nulla dolores modi omnis facilis officia?</p>
+                <a href="#" target="_blank" rel="noopener noreferrer">yoursite.com</a>
+            </div>
+            <div>
+                <button>Seguir</button>
+                <button>Mensagem</button>
+                <button>Contato</button>
+            </div>
+            <div id="highlights"></div>
+        </section>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+            <footer>
+                <div id="copyright"></div>
+            </footer>
+        </a>
+    </main>
+    
+    <script>
+//footer
+var copyright = window.document.querySelector('#copyright')
+var dataAtual = new Date()
+var anoAtual = dataAtual.getFullYear()
+copyright.innerHTML = `&copy; ${anoAtual} raysantori`
+    </script>
+</body>
+</html>

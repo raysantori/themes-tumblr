@@ -1,0 +1,107 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-conteudo);
+    font-family: var(--fonte-conteudo);
+    font-size: 16px;
+}
+
+:root{
+    --cor-primaria:#169EF6;
+    --cor-conteudo:#231F20;
+    --cor-conteudo-destaque:#FF3041;
+    --cor-conteudo-secundario:#ECECEC;
+    --cor-fundo:#FAFAFA;
+    --cor-sobreposta:#FFFFFF;
+
+    --fonte-conteudo: 'Roboto', sans-serif;
+}
+
+::selection{
+    background-color: var(--cor-primaria);
+    color: var(--cor-conteudo);
+}
+
+::-webkit-scrollbar{
+    width: 8px; height: 8px;
+}
+
+::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor-primaria);
+}
+
+a{
+    color: var(--cor-primaria);
+}
+
+a footer{
+    color: var(--cor-conteudo);
+}
+
+a:hover footer{
+    color: var(--cor-primaria);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-spacebetween-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    width: 50vw;
+    background-color: var(--cor-sobreposta);
+    padding: 1% 3%;
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 3px 3px 6px var(--cor-conteudo-secundario);
+}
+
+header{
+    padding: 1rem 0;
+}
+
+header i:first-child{
+    padding-right: 0 1rem;
+}
+
+header p, header i:nth-child(2){
+    padding: 0 1rem;
+}
+
+footer{
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+#copyright{
+    text-align: center;
+    text-transform: uppercase;
+}
