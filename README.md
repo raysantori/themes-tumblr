@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="125" src="assets\images\tumblr-logo.svg">
+  <img width="100" src="assets\images\tumblr-logo.svg">
   
   ### TEMAS PARA SEU TUMBLR
 
@@ -32,7 +32,10 @@
 
 Funcionalidades que ainda precisam ser implementadas no desafio.
 
-> Em breve.
+1. <code>Tema 01</code>  Instagram (<a target="_blank" href="https://raysantori.github.io/themes-tumblr/themes/t01-instagram.html">ver demo</a>)<br>
+   - [ ] Incluir favicon;
+   - [ ] Design responsivo;
+   - [ ] Tema claro ou escuro..
 
 <div align="right"><a target="_blank" href="https://github.com/raysantori/desafio-codelandia#desafio-codel%C3%A2ndia">🔝 Voltar ao topo</a></div>
 
@@ -41,7 +44,7 @@ Funcionalidades que ainda precisam ser implementadas no desafio.
 Clone o Desafio Codelândia no terminal:
 
   ```
-  git clone 
+  git clone https://github.com/raysantori/themes-tumblr.git
   ```
 
 <div align="right"><a target="_blank" href="https://github.com/raysantori/desafio-codelandia#desafio-codel%C3%A2ndia">🔝 Voltar ao topo</a></div>
